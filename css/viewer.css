@@ -1,0 +1,42 @@
+body {
+  width: 100vw;
+  background-color: white;
+  text-align: left;
+  padding: 1%;
+  margin: 1%;
+}
+
+.center {
+  text-align: center;
+  padding: 10%;
+}
+
+.vis {
+  visibility: hidden;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li:hover {
+  border-left: solid #42f4bc;
+  padding-left: .5%;
+}
+
+a:hover, a > h2:hover {
+  color: black;
+  background: #42f4bc;
+  text-decoration: none;
+}
+
+#rand {
+  width: 50%;
+  margin: auto;
+}
+
+#response > input {
+  padding: .2%;
+  margin: 1% 4%;
+  width: 10%;
+}
